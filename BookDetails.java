@@ -32,13 +32,13 @@ package java_lab_projects;
 public class BookDetails {
 	public static void main(String[] args) {
 		System.out.println("Book 1 Details:\n");
-		Book b1=new Book("The Eye","Chris.H",390,1);
+		Book b1=new Book("The Alchemist","Paulo Coelho",550,1);
 		b1.displayDetails();
 		
 		System.out.println("\n");
 		
 		System.out.println("Book 2 Details:\n");
-		Book b2=new Book("Marcus","Evan.S.T",500,2);
+		Book b2=new Book("The Book Thief","Markus Zusak",470,2);
 		b2.displayDetails();
 	}
 }
